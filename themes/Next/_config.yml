@@ -138,14 +138,13 @@ exturl: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  # about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
   about: /about/ || user
   # schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  # sitemap: /sitemap.xml || sitemap
+  # commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -179,6 +178,7 @@ site_state: true
 social:
   GitHub: https://github.com/su-dd || github
   E-Mail: mailto:987380454@qq.com || envelope
+  QQ: 987380454 || qq
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
