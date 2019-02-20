@@ -2,8 +2,10 @@
 title: 'QMetaObject文档[翻译]'
 comments: false
 date: 2019-02-20 16:06:33
-tag:
+tag: 
+    - QMetaobject
 categories:
+    - Qt
 ---
 # QMetaObject Class
 The QMetaObject class contains meta-information about Qt objects. More...  
