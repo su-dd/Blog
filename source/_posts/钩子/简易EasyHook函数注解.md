@@ -74,4 +74,4 @@ typedef struct _HOOK_TRACE_INFO_
 }HOOK_TRACE_INFO, *TRACED_HOOK_HANDLE;
 ```
 所使用到的关键数据结构为**LOCAL_HOOK_INFO**结构体:
-![结构体](../../images/钩子/简易EasyHook函数注解/LOCAL_HOOK_INFO结构体.jpg '结构体')
+![结构体](/../../images/钩子/简易EasyHook函数注解/LOCAL_HOOK_INFO结构体.jpg '结构体')

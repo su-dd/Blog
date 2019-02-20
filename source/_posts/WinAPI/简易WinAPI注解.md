@@ -107,8 +107,8 @@ hWnd		窗口的句柄
 
 ## CreateMutex
 **例子：**  
-![createMutex例子](../../images/WinAPI/简易WinAPI注解/createMutex例子.png 'createMutex例子')
- 
+![createMutex例子](/../../images/WinAPI/简易WinAPI注解/createMutex例子.png 'createMutex例子')
+
 **定义：**
 ```
 HANDLE CreateMutex(
