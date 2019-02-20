@@ -2,5 +2,6 @@
 title: {{ title }}
 date: {{ date }}
 tag: {{ tag }}
-categorie: {{ categorie }} 
+categories: {{ categorie }} 
+comments: false
 ---

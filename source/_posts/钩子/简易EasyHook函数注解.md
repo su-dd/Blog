@@ -3,8 +3,9 @@ title: 简易EasyHook函数注解
 date: 2019-02-18 14:16:39
 tag: 
     - EasyHooK
-categorie: 
+categories: 
     - 钩子
+comments: true
 ---
 # EasyHooK函数注释
 

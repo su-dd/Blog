@@ -3,8 +3,9 @@ title: 简易WinAPI注解
 date: 2019-02-18 14:31:26
 tag:
     - WinAPI
-categorie:
-    - WinAPI
+categories:
+    - WinAPI注解
+comments: true
 ---
 # 简易WinAPI注解
 ## GetWindowInfo
