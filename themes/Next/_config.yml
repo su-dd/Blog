@@ -328,9 +328,9 @@ codeblock:
 # And you can show or hide one article specially through add page variable `reward: true/false`.
 reward:
   enable: true
-  #comment: Donate comment here
-  #wechatpay: /images/wechatpay.jpg
-  #alipay: /images/alipay.jpg
+  comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+  wechatpay: /images/微信支付.png
+  alipay: /images/支付宝.png
   #bitcoin: /images/bitcoin.jpg
 
 # Related popular posts
