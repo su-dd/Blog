@@ -81,3 +81,10 @@ deploy:
   type: git
   repo: git@github.com:su-dd/su-dd.github.io.git
   brance: master
+
+# 搜索配置 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
