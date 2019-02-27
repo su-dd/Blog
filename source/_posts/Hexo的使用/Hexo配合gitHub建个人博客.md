@@ -37,7 +37,7 @@ npm uninstall hexo-cli
 卸载需要定位到对应文件夹  
 ![卸载Hexo](/../../images/Hexo的使用/Hexo配合gitHub建个人博客/卸载Hexo.png "卸载Hexo")
 
-## Hexo 配置  
+## Hexo 配置   
 安装完Hexo后，要使用Hexo，则在指定的文件夹中新建文件：
 ```
 hexo init <folder>
@@ -51,7 +51,7 @@ npm install
 ![新建完成后的文档结构](/../../images/Hexo的使用/Hexo配合gitHub建个人博客/新建完成后的文档结构.png "新建完成后的文档结构")  
 
 ### 配置简单本地搜索
-#### 1、安装插件
+#### 安装插件
 ```
 npm install hexo-generator-searchdb --save
 ```
