@@ -1,0 +1,25 @@
+{
+  "avatar": "./avatar.png",
+  "title": "呆呆的个人博客",
+  "subTitle": "daidai's blog",
+  "intro": "建筑造价领域C++开发",
+  "social": [
+    {
+      "text": "简书",
+      "link": "https://www.jianshu.com/u/e17c921dd532"
+    },
+    {
+      "text": "掘金",
+      "link": "https://juejin.cn/user/281930376689688"
+    },
+    {
+      "text": "github",
+      "link": "https://github.com/su-dd"
+    },
+    {
+      "text": "segmentfault",
+      "link": "https://segmentfault.com/u/su_dd"
+    }
+  ],
+  "copyright": "copy © 矮大紧的日常 | 2018 parksben"
+}
