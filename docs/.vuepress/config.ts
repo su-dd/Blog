@@ -208,7 +208,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         options: {
           clientID: 'fbd03da0e3c540784529',
           clientSecret: 'cfe0bfcf694efad463444b1de0216019cac7c299',
-          repo: 'blog-gitalk-comment', // GitHub 仓库
+          repo: 'blogwriter', // GitHub 仓库
           owner: 'su-dd', // GitHub仓库所有者
           admin: ['su-dd'], // 对仓库有写权限的人
           // distractionFreeMode: true,
