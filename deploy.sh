@@ -14,12 +14,12 @@ echo 'b.xugaoyi.com' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:xugaoyi/vuepress-theme-vdoing.git
+  githubUrl=git@github.com:su-dd/su-dd.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
-  git config --global user.name "xugaoyi"
-  git config --global user.email "894072666@qq.com"
+  githubUrl=https://su-dd:${GITHUB_TOKEN}@github.com/su-dd/su-dd.github.io.git
+  git config --global user.name "su-dd"
+  git config --global user.email "987380454@qq.com"
 fi
 git init
 git add -A
