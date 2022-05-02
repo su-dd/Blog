@@ -31,7 +31,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '知识积累',
         link: '/knowledge/',
       },
-      { text: '生活记杂', link: '/think/',},
+      { text: '工具', link: '/tools/'},
+      { text: '生活记杂', link: '/think/'},
       { text: '关于', link: '/about/'},
       { text: '收藏', link: '/pages/beb6c0bd8a66cea6/'},
       { 
@@ -205,8 +206,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         choosen: 'gitalk',
         options: {
-          clientID: '30e1a55bec1b428b5f48',
-          clientSecret: '3c27fec26ca100608b0e71195fc1e55d37ccca4e',
+          clientID: 'fbd03da0e3c540784529',
+          clientSecret: 'cfe0bfcf694efad463444b1de0216019cac7c299',
           repo: 'blog-gitalk-comment', // GitHub 仓库
           owner: 'su-dd', // GitHub仓库所有者
           admin: ['su-dd'], // 对仓库有写权限的人
