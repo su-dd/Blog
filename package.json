@@ -1,5 +1,5 @@
 {
-  "name": "idai-blog",
+  "name": "adddai-blog",
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
