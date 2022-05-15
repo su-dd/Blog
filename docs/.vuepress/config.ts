@@ -26,16 +26,39 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
-      { text: '软件设计', link: '/design/' },
-      { 
+      {
+        text: '软件设计',
+        link: '/design/',
+        items: [
+          { text: '面向对象', link: '/design/oo/' },
+          { text: '设计模式', link: '/design/GoF/' },
+          { text: '领域模型', link: '/design/ddd/' },
+        ],
+      },
+      {
         text: '知识积累',
         link: '/knowledge/',
+        items: [
+          {
+            text: '基础语法',
+            items: [
+              { text: 'C++基础知识', link: '/knowledge/language/c++/' },
+              { text: 'JAVA基础知识', link: '/knowledge/language/java/' },
+            ],
+          },
+          {
+            text: 'Web框架',
+            items: [
+              { text: 'Spring', link: '/knowledge/language/spring/' },
+            ],
+          }
+        ],
       },
-      { text: '工具', link: '/tools/'},
-      { text: '生活记杂', link: '/think/'},
-      { text: '关于', link: '/about/'},
-      { text: '收藏', link: '/pages/beb6c0bd8a66cea6/'},
-      { 
+      { text: '工具', link: '/tools/', },
+      { text: '生活记杂', link: '/think/' },
+      { text: '关于', link: '/about/' },
+      { text: '收藏', link: '/pages/beb6c0bd8a66cea6/' },
+      {
         text: '索引',
         link: '/archives/',
         items: [
@@ -141,8 +164,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
       },
     ],
-    ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
+    // ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+    // [
+    //   "script",
+    //   {},
+    //   `var _hmt = _hmt || [];
+    //   (function() {
+    //     var hm = document.createElement("script");
+    //     hm.src = "https://hm.baidu.com/hm.js?3d63e1b0aa607833cafb451888226547";
+    //     var s = document.getElementsByTagName("script")[0]; 
+    //     s.parentNode.insertBefore(hm, s);
+    //   })();`
+    // ]
+
     // [
     //   'script',
     //   {
