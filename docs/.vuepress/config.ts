@@ -32,7 +32,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: '面向对象', link: '/design/oo/' },
           { text: '设计模式', link: '/design/GoF/' },
-          { text: '领域模型', link: '/design/ddd/' },
+          { text: '领域驱动设计', link: '/design/ddd/' },
         ],
       },
       {
