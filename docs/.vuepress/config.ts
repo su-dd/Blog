@@ -116,7 +116,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/su-dd/cdn@main/博客/呆呆.webp',
+      avatar: 'https://idai.coding.net/p/blog/d/cdn/git/raw/main/博客/呆呆.webp',
       name: '呆呆',
       slogan: '一位开发，开心的人',
     },
