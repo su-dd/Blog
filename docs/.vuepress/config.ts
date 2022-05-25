@@ -49,7 +49,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: 'Web框架',
             items: [
-              { text: 'Spring', link: '/knowledge/language/spring/' },
+              { text: 'Spring相关', link: '/knowledge/language/spring/' },
             ],
           }
         ],
