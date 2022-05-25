@@ -43,7 +43,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '基础语法',
             items: [
               { text: 'C++基础知识', link: '/knowledge/language/c++/' },
-              { text: 'JAVA基础知识', link: '/knowledge/language/java/' },
+              { text: 'Java基础知识', link: '/knowledge/language/java/' },
             ],
           },
           {
