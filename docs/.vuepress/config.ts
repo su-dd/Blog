@@ -55,6 +55,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       { text: '工具', link: '/tools/', },
+      { 
+        text: '读书笔记',
+        link: '/books/',
+        items: [
+          { text: '读凤凰架构', link: '/books/icyfenix/', },
+        ],
+      },
       { text: '生活记杂', link: '/think/' },
       { text: '关于', link: '/about/' },
       { text: '收藏', link: '/pages/beb6c0bd8a66cea6/' },
@@ -193,7 +200,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   plugins: <UserPlugins>[
 
     'vuepress-plugin-baidu-autopush', // 百度自动推送
-
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
