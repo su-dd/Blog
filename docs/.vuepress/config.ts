@@ -40,16 +40,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/knowledge/',
         items: [
           {
-            text: '基础语法',
+            text: '编程语言',
             items: [
-              { text: 'C++基础知识', link: '/knowledge/language/c++/' },
-              { text: 'Java基础知识', link: '/knowledge/language/java/' },
+              { text: 'C++', link: '/knowledge/language/c++/' },
+              { text: 'Java', link: '/knowledge/language/java/' },
             ],
           },
           {
             text: 'Web框架',
             items: [
-              { text: 'Spring相关', link: '/knowledge/language/spring/' },
+              { text: 'Spring', link: '/knowledge/language/spring/' },
             ],
           }
         ],
