@@ -27,6 +27,19 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       {
+        text: '编程基础',
+        link: '/knowledge/',
+        items: [
+          {
+            text: '语言',
+            items: [
+              { text: 'C++', link: '/knowledge/c++/' },
+              { text: 'Java', link: '/knowledge/java/' },
+            ],
+          }
+        ],
+      },
+      {
         text: '软件设计',
         link: '/design/',
         items: [
@@ -36,25 +49,28 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '知识积累',
-        link: '/knowledge/',
+        text: '趣味话题',
+        link: '/interest/',
+      },
+      {
+        text: '常用框架',
+        link: '/frame/',
         items: [
-          {
-            text: '编程语言',
-            items: [
-              { text: 'C++', link: '/knowledge/language/c++/' },
-              { text: 'Java', link: '/knowledge/language/java/' },
-            ],
-          },
-          {
-            text: 'Web框架',
-            items: [
-              { text: 'Spring', link: '/knowledge/language/spring/' },
-            ],
-          }
+          { text: 'Spring', link: '/frame/spring/' },
         ],
       },
-      { text: '工具', link: '/tools/', },
+      // {
+      //   text: '常用框架',
+      //   link: '/frame/',
+      //   items: [
+      //     {
+      //       text: 'Web框架',
+      //       items: [
+      //         { text: 'Spring', link: '/frame/spring/' },
+      //       ],
+      //     }
+      //   ],
+      // },
       // { 
       //   text: '读书笔记',
       //   link: '/books/',
@@ -63,6 +79,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //   ],
       // },
       // { text: '生活记杂', link: '/think/' },
+
+      { text: '常用工具', link: '/tools/', },
       { text: '关于', link: '/about/' },
       { text: '收藏', link: '/pages/beb6c0bd8a66cea6/' },
       {
