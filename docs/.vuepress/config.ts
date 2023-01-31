@@ -190,7 +190,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-    ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
+    ['meta', { name: "baidu_union_verify", content: "0c4ba741a75f427faa8dd9c724a81b73"}], // 百度联盟的网站验证 https://union.baidu.com/
+    ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证  https://ziyuan.baidu.com/
     [
       "script",
       {},
