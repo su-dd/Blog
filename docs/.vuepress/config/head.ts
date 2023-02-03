@@ -1,6 +1,7 @@
 import { HeadTags } from 'vuepress/config';
 export default <HeadTags>[
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }],
     ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],  // 解决 Chrome 网站统计不准确问题
     [
       'meta',
@@ -22,7 +23,7 @@ export default <HeadTags>[
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();`
-    ],  // 百度
+    ],  // 百度统计配置
 
     // [
     //   'script',

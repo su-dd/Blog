@@ -75,4 +75,22 @@ export default <UserPlugins> [
         },
       },
     ],
+    [
+    	{
+          name: 'custom-plugins',
+        	globalUIComponents: ["LastReadingPopup"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+    	}
+    ],
+    [
+    	{
+        	name: 'custom-plugins',
+        	globalUIComponents: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+    	}
+    ],
+    [
+    	{
+        	name: 'custom-plugins',
+        	globalUIComponents: ["Fantasy"]
+    	}
+    ]
 ]
