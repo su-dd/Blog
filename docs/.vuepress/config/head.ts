@@ -7,7 +7,7 @@ export default <HeadTags>[
       'meta',
       {
         name: 'keywords',
-        content: '呆呆的博客,c++博客,个人技术博客,技术文档,学习,c++,java,spring,python,git,springcloud,面试,git,github,markdown',
+        content: 'su-dd,苏呆呆,苏呆呆的博客,呆呆的博客,个人技术博客,技术文档,c++基础,c++提高,c11,c++新特性,c++,java,spring,ddd,面向对象,设计模式,汇编,git,springcloud,面试,git,github,markdown,md文档,vdoing,demo',
       },
     ],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色

@@ -12,7 +12,7 @@ export default defineConfig4CustomTheme({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "呆呆的博客",
+      title: "苏呆呆的博客",
       description: '一个向往美好生活的笨人。',
     }
   },
