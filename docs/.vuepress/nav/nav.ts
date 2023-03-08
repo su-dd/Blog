@@ -1,16 +1,11 @@
 export default [
     { text: '首页', link: '/' },
     {
-        text: '编程基础',
-        link: '/knowledge/',
+        text: '编程语言',
+        link: '/language/',
         items: [
-            {
-                text: '语言',
-                items: [
-                    { text: 'C++', link: '/knowledge/c++/' },
-                    { text: 'Java', link: '/knowledge/java/' },
-                ],
-            }
+            { text: 'C++', link: '/language/c++/' },
+            { text: 'Java', link: '/language/java/' },
         ],
     },
     {
@@ -23,17 +18,13 @@ export default [
         ],
     },
     {
-        text: '趣味话题',
-        link: '/interest/',
-    },
-    {
         text: '常用框架',
         link: '/frame/',
         items: [
             { text: 'Spring', link: '/frame/spring/' },
         ],
     },
-    { text: '常用工具', link: '/tools/'},
+    { text: '常用工具', link: '/tools/' },
     {
         text: '更多',
         link: '/archives/',
