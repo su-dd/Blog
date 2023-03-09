@@ -12,7 +12,7 @@ demo地址：[GitHub_Demo](https://github.com/su-dd/demo)
 
 
 目录页的front matter
----
+```
 pageComponent: # 使用页面组件
   name: Catalogue # 组件名：Catalogue => 目录页组件 ，使用目录页时 必须 设置为Catalogue
   data: # 组件所需数据
@@ -26,9 +26,9 @@ sidebar: false # 不显示侧边栏
 article: false # 不是文章页 (不显示面包屑栏、最近更新栏等)
 comment: false # 不显示评论栏
 editLink: false # 不显示编辑按钮
----
+```
 笔记文档的front matter
----
+```
 title:     # 页面标题
 date:     # 创建日期
 permalink:  # 永久链接
@@ -36,9 +36,9 @@ categories:  # 所在目录
   - 
 tags:    # 所属标签
   - 
----
+```
 完整的front matter
----
+```
 title: 标题
 date: 2020-02-21 14:40:19
 permalink: /pages/a1bc87
@@ -56,4 +56,4 @@ author:
  name: 作者
  link: https://xxx.com
 sticky: 1  # 置顶，1 最高，数字越大，置顶地位越低下
----
+```
