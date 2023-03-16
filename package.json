@@ -2,8 +2,8 @@
   "name": "addai-blog",
   "version": "1.0.0",
   "scripts": {
-    "baiduPush": "node utils/baiduPush.js https://blog.addai.cn && bash baiduPush.sh",
     "dev": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
+    "baiduPush": "node utils/baiduPush.js https://blog.addai.cn && bash baiduPush.sh",
     "build": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
     "deploy": "bash deploy.sh",
     "editFm": "node utils/editFrontmatter.js",
@@ -28,7 +28,7 @@
     "yamljs": "^0.3.0"
   },
   "engines": {
-    "node": "16.4.0",
-    "npm": "6.14.12"
+    "node": "16.13.1",
+    "npm": "8.1.2"
   }
 }
