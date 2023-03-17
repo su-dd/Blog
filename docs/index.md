@@ -6,7 +6,7 @@ pageClass: vdoing-index-class
 ---
 
 <ClientOnly>
-  <IndexBigImg />
+  <!-- <IndexBigImg /> -->
   <!-- <Fantasy index="true" /> -->
   <WebInfo/>
 </ClientOnly>
