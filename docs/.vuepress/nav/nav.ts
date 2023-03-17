@@ -6,7 +6,7 @@ export default [
         items: [
             { text: 'C++', link: '/language/c++/' },
             { text: 'Java', link: '/language/java/' },
-            { text: 'Go', link: '/language/go' },
+            { text: 'Go', link: '/language/go/' },
 
         ],
     },
