@@ -21,7 +21,7 @@ export default <VdoingThemeConfig>{
     categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
     bodyBgImg: [
-          'https://cdn.addai.cn/博客/网站使用/bg3.png',
+        'https://cdn.addai.cn/blog/网站使用/bg3.png',
         //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
         //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
@@ -86,7 +86,7 @@ export default <VdoingThemeConfig>{
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-        avatar: 'https://cdn.addai.cn/博客/网站使用/呆呆.webp',
+        avatar: 'https://cdn.addai.cn/blog/网站使用/呆呆.webp',
         name: '苏呆呆',
         slogan: '一个向往美好生活的笨人。',
     },
